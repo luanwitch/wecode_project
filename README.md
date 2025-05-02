@@ -5,7 +5,7 @@ Este projeto requer a recriação de uma página mobile e desktop baseada em um 
 ## Datas e formulário
 
 * Para ser considerada a entrega e termos acesso ao repositório é necessário que você preencha esse formulário: [link](https://forms.gle/bDBTrdyH2ahyn2DN9)
-* O projeto deve ser entregue até o dia **09/05/2025**
+** O projeto deve ser entregue em até 7 dias após o recebimento no link **
 
 ### Figma Design
 O design a ser seguido está disponível no Figma no seguinte [link](https://www.figma.com/design/EjPsqBt4o5yktKvks0f072/[Wecode]-Vaga-Desenvolvedor-J%C3%BAnior?node-id=3006-1347&t=0G4hjFDhmnEiECiD-0)

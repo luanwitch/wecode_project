@@ -1,0 +1,43 @@
+.bebece-info-section {
+    padding: 100px 80px;
+    background-color: #F7F7F7;
+    
+  
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+      line-height: 1.4;
+      padding: 0; // Removido para usar o padding da section principal
+      text-align: left;
+    }
+  
+    .image-row {
+        width: 100%; 
+        display: flex;
+        justify-content: flex-start; // Alinha as imagens à esquerda
+        gap: 16px;
+        padding-right: 80px;
+     
+  
+      .info-image {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 4px;
+        margin-top: 40px;
+        
+      }
+    }
+  
+    .section-subtitle {
+      margin-top: 60px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #666;
+      line-height: 1.6;
+      text-align: left;
+    }
+  }
+  

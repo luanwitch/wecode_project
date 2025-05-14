@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './header.scss';
+import '../../components/Carousel/carousel.scss';
 
 import logo from '../../assets/imagens/bebece.svg';
 import lupaIcon from '../../assets/imagens/Vector.png';
@@ -104,6 +105,7 @@ const Header: React.FC = () => {
           <img src={bagIcon} alt="Sacola" className="icon" />
         </div>
       </div>
+
       {/* Localização abaixo do conteúdo principal */}
       <div className="header__location">
         Você está em: São Paulo
@@ -111,10 +113,13 @@ const Header: React.FC = () => {
           Alterar
         </button>
       </div>
+
       {/* Banner Principal */}
       <div className="header__banner">
         <img src={bannerPrincipal} alt="Banner Principal" className="banner_principal" />
       </div>
+
+      {/* Modal de localização */}
       {isModalVisible && (
         <div className="modal show">
           <div className="modal-content">
@@ -131,6 +136,8 @@ const Header: React.FC = () => {
           </div>
         </div>
       )}
+
+      {/* Categorias */}
       <div className="categorias-label">Categorias</div>
       <section className="section-categorias">
         <div className="categoria-item">

@@ -1,77 +1,117 @@
 .product-carousel-wrapper {
-    position: relative;
-    left: 80px;
-    top: 48px;
-    width: calc(100% - 80px);
-    max-width: 1200px;
-  
-    .carousel-title {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 16px;
-      color: #1d1d1d;
+  position: relative;
+  left: 80px;
+  top: 48px;
+  width: calc(100% - 80px);
+  max-width: 1200px;
+
+  .carousel-title {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1d1d1d;
+  }
+
+  .product-slide {
+    padding: 0 8px;
+  }
+
+  .product-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background-color: #fff;
+
+    img {
+      width: 100%;
+      max-height: 220px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 12px;
     }
-  
-    .product-slide {
-      padding: 0 8px;
-    }
-  
-    .product-card {
-      border: 1px solid #e5e5e5;
-      border-radius: 16px;
-      padding: 16px; // padding aqui afeta todo o conteúdo (inclusive imagem)
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      text-align: center;
-      background-color: #fff;
-  
-      img {
-        width: 100%;
-        max-height: 220px;
-        object-fit: contain;
-        display: block;
-        margin: 0 auto 12px;
+  }
+
+  .product-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .product-price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e91e63;
+  }
+
+  .product-price-discount {
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+  }
+
+  .custom-dots {
+    margin-top: 16px;
+    text-align: left;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 8px;
+
+      button {
+        border: none;
+        background: #ccc;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        padding: 16px;
+        cursor: pointer;
       }
-    }
-  
-    .product-name {
-      font-size: 16px;
-      font-weight: 500;
-      margin-bottom: 8px;
-      color: #333;
-    }
-  
-    .product-price {
-      font-size: 18px;
-      font-weight: 600;
-      color: #e91e63;
-    }
-  
-    .product-price-discount {
-      font-size: 14px;
-      color: #999;
-      text-decoration: line-through;
-    }
-  
-    .custom-dots {
-      margin-top: 16px;
-      text-align: left;
-      padding-left: 0;
-      li {
-        display: inline-block;
-        margin-right: 8px;
-        button {
-          border: none;
-          background: #ccc;
-          width: 10px;
-          height: 10px;
-          border-radius: 50%;
-          padding: 16px;
-          cursor: pointer;
-        }
-        &.slick-active button {
-          background: #e91e63;
-        }
+
+      &.slick-active button {
+        background: #e91e63;
       }
     }
   }
-  
+}
+
+.bebece-info-section {
+  text-align: center;
+  padding: 48px 0;
+
+  .section-title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #1d1d1d;
+    margin-bottom: 32px;
+  }
+
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    .info-image {
+      width: 576px;
+      height: 385.14px;
+      object-fit: cover;
+      border-radius: 16px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .section-subtitle {
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+

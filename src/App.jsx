@@ -7,12 +7,14 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Header from './components/Header/index.tsx'
 import Carousel from './components/Carousel/carousel.tsx';
+import BebeceInfoSection from './components/Header/BebeceInfoSection.tsx';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Carousel />
+      <BebeceInfoSection />
     </div>
   );
 }

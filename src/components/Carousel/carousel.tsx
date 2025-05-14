@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import { getProducts } from '../../utils';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './carousel.scss';
+import '../../components/Carousel/carousel.scss';
 
 const ProductCarousel = () => {
   const [products, setProducts] = useState([]);
@@ -27,9 +27,7 @@ const ProductCarousel = () => {
         },
       },
     ],
-    appendDots: (dots) => (
-      <ul className="custom-dots"> {dots} </ul> // personaliza os dots
-    ),
+    appendDots: (dots) => <ul className="custom-dots"> {dots} </ul>,
   };
 
   return (
